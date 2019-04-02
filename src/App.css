@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.container{
+.container {
   display: flex;
 }
 
 .movieName {
-  flex:1;
+  flex: 1;
 }
