@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import lord from './images/lordoftherings.jpg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload!!!!
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+<div className="App">
+      <img src={lord} alt="lord of the rings movie cover"/>
+      <br/> <br/>
+
+      <h1>Lord of the rings</h1>
+
+    <div className="container">
+      <div className="movieName">moulin rouge</div>
+      <div className="movieName">avengers</div>
+      <div className="movieName">Star wars</div>
+      <div className="movieName">The lego movie</div>
+    </div>
+      
+</div>
     );
   }
 }
