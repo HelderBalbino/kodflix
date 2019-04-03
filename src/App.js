@@ -46,7 +46,7 @@ class App extends Component {
       <div className='moviePosters'>
         <img src={spiderMan} alt='Spider man'/>
         <div className='overlay'> 
-          <h1>Spider-man (2016)</h1>
+          <h1>Spider-Man (2016)</h1>
         </div>
       </div>
       <div className='moviePosters'>
