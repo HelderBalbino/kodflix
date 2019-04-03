@@ -1,45 +1,47 @@
 .App {
   text-align: center;
-  background-color: aqua
+  
 }
 
 /* ########### Displayed on computer */
 
 .movieContainer {
   display: flex;
+  
 }
 
 .moviePosters {
   flex: 1;
   padding: 30px;
+  border: 1px solid blue;
+  position: relative;
 }
 
+.overlay {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  opacity: .6;
+  color: azure;
+}
+
+.moviePosters:hover .overlay {
+  display: block;
+}
 
 /* ########### Displayed on phones use media queries */
 
 @media only screen and (max-width: 600px) {
 
-.App {
-    text-align: center;
-    background-color: aqua
-}
-
 .movieContainer {
   flex-direction: column;
 }
 
-
-
 }
 
 
 
-/* 
-.movieTitlesContainer {
-  display: flex;
-}
-
-.movieName {
-  flex: 1;
-}  */
 

@@ -15,18 +15,56 @@ class App extends Component {
     return (
       
 <div className="App">
-
+      <br/><br/><br/>
   <div className='movieContainer'>
-      <img className='moviePosters' src={lordOfTheRings} alt='Lord of the rings'/>
-      <img className='moviePosters' src={avengers} alt='Avengers'/>
-      <img className='moviePosters' src={starwars} alt='Avengers'/>
+
+      <div className='moviePosters'>
+        <img src={lordOfTheRings} alt='Lord of the rings'/>
+        <div className='overlay'> 
+          <h1>The Lord of the Rings: The Fellowship of the Ring (2001)</h1>
+        </div>
+      </div>
+      <div className='moviePosters'>
+        <img src={avengers} alt='Avengers'/>
+        <div className='overlay'> 
+          <h1>Avengers: Infinity War (2018)</h1>
+        </div>
+      </div>
+      <div className='moviePosters'>
+        <img src={starwars} alt='Avengers'/>
+        <div className='overlay'> 
+          <h1>Star Wars: Episode IV - A New Hope (1977))</h1>
+        </div>
+      </div>
+      
+      
       
   </div>
 
   <div className='movieContainer'>
-      <img className='moviePosters' src={spiderMan} alt='Spider man'/>
-      <img className='moviePosters' src={batman} alt='Batman'/>
-      <img className='moviePosters' src={starTrek} alt='Star Trek'/>
+
+      <div className='moviePosters'>
+        <img src={spiderMan} alt='Spider man'/>
+        <div className='overlay'> 
+          <h1>Spider-man (2016)</h1>
+        </div>
+      </div>
+      <div className='moviePosters'>
+      < img src={batman} alt='Batman'/>
+      <div className='overlay'> 
+          <h1>Batman Begins (2005)</h1>
+        </div>
+      </div>
+      <div className='moviePosters'>
+        <img src={starTrek} alt='Star Trek'/>
+        <div className='overlay'> 
+          <h1>Star Trek II: The Wrath of Khan (1982)</h1>
+        </div>
+      </div>
+  
+      
+      
+      
 
   </div>
 
