@@ -11,7 +11,7 @@ import starTrek from './images/Star Trek.jpg';
 
 export default function MoviesGallery () {
     return (  
-      <div>
+      <div className='moviesDisplay'>
         <div className='movieContainer'>
           <Movies name='The Lord of the Rings: The Fellowship of the Ring (2001)' image={lordOfTheRings} />
           <Movies name='Avengers: Infinity War (2018)' image={avengers} />
