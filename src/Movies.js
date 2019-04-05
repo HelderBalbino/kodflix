@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Movies(props) {
     return (
-      <Link to='/Details' className='moviePosters'>
+      <Link to={`${props.id}`} className='moviePosters'>
         <div className='moviePosters'>
           <img src={props.image} alt={`${props.name} + Movie`}/>
             <div className='overlay'> 

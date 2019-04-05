@@ -13,14 +13,14 @@ export default function MoviesGallery () {
     return (  
       <div className='moviesDisplay'>
         <div className='movieContainer'>
-          <Movies name='The Lord of the Rings: The Fellowship of the Ring (2001)' image={lordOfTheRings} />
-          <Movies name='Avengers: Infinity War (2018)' image={avengers} />
-          <Movies name='Star Wars: Episode IV - A New Hope (1977)' image={starwars} />
+          <Movies id='lordRings' name='The Lord of the Rings: The Fellowship of the Ring (2001)' image={lordOfTheRings} />
+          <Movies id='avengers'  name='Avengers: Infinity War (2018)' image={avengers} />
+          <Movies id='starWars'  name='Star Wars: Episode IV - A New Hope (1977)' image={starwars} />
         </div>
         < div className='movieContainer'>
-          <Movies name='Spider-Man (2016)' image={spiderMan} />
-          <Movies name='Batman Begins (2005)' image={batman} />   
-          <Movies name='Star Trek II: The Wrath of Khan (1982)' image={starTrek} />  
+          <Movies id='spiderman' name='Spider-Man (2016)' image={spiderMan} />
+          <Movies id='batman'    name='Batman Begins (2005)' image={batman} />   
+          <Movies id='starTrek'  name='Star Trek II: The Wrath of Khan (1982)' image={starTrek} />  
         </div>
     </div>
   )
